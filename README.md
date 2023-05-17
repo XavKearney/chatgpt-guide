@@ -1,4 +1,4 @@
-# Prompt engineering for non-technical people
+# ChatGPT prompt engineering for non-technical people
 ChatGPT has taken the world by storm this year. People around the world are using it for all kinds of tasks. New use cases are being discovered every day. 
 
 But the interface is just text. You prompt ChatGPT with a message, and it responds. The content of your prompt can have a huge impact on the quality of the response, and how well it achieves what you intended. 
