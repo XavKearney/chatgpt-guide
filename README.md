@@ -1,4 +1,4 @@
-# ChatGPT prompt engineering for non-technical people
+# Prompt engineering for non-technical people
 ChatGPT has taken the world by storm this year. People around the world are using it for all kinds of tasks. New use cases are being discovered every day. 
 
 But the interface is just text. You prompt ChatGPT with a message, and it responds. The content of your prompt can have a huge impact on the quality of the response, and how well it achieves what you intended. 
@@ -19,12 +19,13 @@ There are some important technical limitations to keep in mind:
 Here are a few examples of potential use-cases that might provide some inspiration for how to get the most out of GPT-4 in your day-to-day:
 
 - Summarisation: 
-    - summarise the key points in this news article/scientific paper"
+    - "summarise the key points in this news article/scientific paper"
     - "take this meeting transcript and summarise the key decisions made as bullet points"
     - "pick out the top 3 themes people mention in this list of feedback"
 - Editing/formatting
     - "reword this feedback so it sounds more encouraging"
     - "rewrite this technical document in plain English"
+    - "create 3 alternative ways to say this sentence"
 - Coaching
     - "I'm not enjoying my job, help me figure out how to get more energy"
     - "I've received some feedback from my manager, let's discuss how I can act upon it"
@@ -35,7 +36,7 @@ Here are a few examples of potential use-cases that might provide some inspirati
     - "let's draft a project plan for an upcoming initiative at work"
 - Recommending
     - "where should I go on holiday with 3 kids in May if I want some sun?"
-    - "what are some good books to read on holiday if I enjoyed [book title]"
+    - "what are some good books to read on holiday if I enjoyed [book title]?"
 
 For any of these use cases, the prompt you use will make a big difference to the results you get.
 
@@ -57,7 +58,15 @@ Where should I go on holiday this year?
 Try asking:
 
 ```
-I'm planning a trip for me and my girlfriend. We're both 28 years old and live in London, UK. We love hiking and trying new foods. Recently we've enjoyed trips to Mexico and Argentina. We want to go away some time next year between January and May, for around 2 weeks. Where should we go?
+I'm planning a trip for me and my girlfriend. 
+
+We're both 28 years old and live in London, UK. 
+
+We love hiking and trying new foods. 
+
+Recently we've enjoyed trips to Mexico and Argentina. 
+
+We want to go away some time next year between January and May, for around 2 weeks. Where should we go?
 ```
 
 You can even be explicit that you're giving the model context. Sometimes this makes it faster to incorporate:
