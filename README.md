@@ -84,7 +84,7 @@ Summarise this meeting transcript into bullet point notes, separating key decisi
 ```
 
 ### Use delimiters for more complex requests
-In the larger prompts above we use delimiters (like `# Context`) to help the model separate different information in the prompt. This often makes it easier to write the prompt, too, as you don't have to worry so much about weaving information in neatly. You can use any delimiters you like, but GPT-4 is particularly familiar with Markdown so `#` characters work well.
+In the larger prompts above we use delimiters (like `# Context`) to help the model separate different information in the prompt. This often makes it easier to write the prompt, too, as you don't have to worry so much about weaving information in neatly. You can use any delimiters you like, but GPT-4 is particularly familiar with [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) so `#` characters work well.
 
 If you want to include quotes, raw text or code, it's often more effective to delimit these with Markdown quotes:
 ````
@@ -94,6 +94,8 @@ Here's some code I wrote:
 ```
 How could I improve it?
 ````
+
+You can even use Markdown tables if you want to share tabular data, but this is probably overkill for personal use cases.
 
 ### Be specific about the role you want the model to play
 The model has been trained on all forms of content: people teaching, people debating, people speculating, people complaining, people lying etc. And this content has been written by a wide range of people, from world experts to people who have no idea what they're talking about. If you ask GPT-4 a question, it will answer based on some mix of all of those different kinds of content.
@@ -152,6 +154,11 @@ What's 12 x 12? Respond with just the answer. Do not include any working out.
 GPT-4 has an incredible ability to learn and adapt on the fly based on your feedback. If you don't get the response you're looking for first time, don't despair! Explain to it why the answer didn't suit your requirements and work with it to get where you want to go. 
 
 You can think of this like generating more context for the model. Instead of giving it all of the context up front, as you have a conversation you are creating context that informs the next response. Sometimes it can be more effective to take this iterative approach than try and perfect your prompt ahead of time.
+
+If you're using it for creative idea generation, it can work really well to generate an initial list of ideas and then respond with something like:
+```
+I really like option 3 because [reason]. Can you come up with more like that?
+```
 
 You can even ask GPT-4 to suggest how you might improve your prompt for next time.
 
